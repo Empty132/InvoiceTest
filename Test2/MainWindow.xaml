@@ -1,0 +1,21 @@
+﻿<Window x:Class="Test2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Test2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="330*"/>
+            <RowDefinition Height="89*"/>
+        </Grid.RowDefinitions>
+        <StackPanel HorizontalAlignment="Left" Height="4" Margin="-793,214,0,0" VerticalAlignment="Top" Width="13"/>
+        <Button Content="Firmy" HorizontalAlignment="Left" Height="76" Margin="10,10,0,0" VerticalAlignment="Top" Width="772" Click="Companies_btn"/>
+        <Button Content="Faktury" HorizontalAlignment="Left" Height="69" Margin="10,91,0,0" VerticalAlignment="Top" Width="772" Click="Invoices_btn"/>
+        <Button Content="Vytvoř Fakturu" HorizontalAlignment="Left" Height="67" Margin="10,165,0,0" VerticalAlignment="Top" Width="772" Click="Add_Invoice_btn"/>
+        <Button Content="Exit" HorizontalAlignment="Left" Height="67" Margin="10,237,0,0" VerticalAlignment="Top" Width="772" Click="exit_btn"/>
+
+    </Grid>
+</Window>
